@@ -6,9 +6,11 @@
   max-width: 400px;
   height: 100%;
   margin: auto;
+  /*background-size: cover;*/
 }
 
 @media (min-width: 768px){
+
   
     .App{
       max-width: 100%;
@@ -28,6 +30,7 @@
   margin-top: 50px;
   margin-bottom: 50px;
   height: 100%;
+
 }
 .App-logo {
   height: 40vmin;
@@ -44,10 +47,10 @@
   font-size: calc(10px + 2vmin);
   color: rgb(68, 117, 250);
 }
-  
+
 .App-chatroom {
   flex: 12;
-  background-color: rgba(199, 198, 198, 0.418);
+  /*background-color: rgba(198, 198, 199, 1.0);*/
 
   background-image: url(kj.jpg);
 
@@ -58,15 +61,16 @@
   background-color: rgba(255, 255, 255, 0);
   color : rgb(0, 0, 0);
   font-weight: 1000;
-  font-size: x-large;}
+  font-size: large;
+}
 
 
 .App-chatroom-text {
   margin: 8px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(136, 152, 241);
   color : rgb(0, 0, 0);
   font-size: 20px;
-  text-align: right;
+  text-align: center;
   font-weight: 600;
 }
 
