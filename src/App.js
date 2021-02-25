@@ -32,7 +32,8 @@ function App() {
 
       <div className="App-chatroom2">
 
-          GI472 Varinkarn Kumtanasan -Pheeraphat Chocokviriyapanya -Tunwarat Kaewphang
+
+         Chatroom
 
         </div>
       </div>
