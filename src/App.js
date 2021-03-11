@@ -38,7 +38,7 @@ function App() {
         <div>
         <Link to="/friend-list">
             <button>
-                Go to 
+                Go to Picture
            </button>
            </Link>
         </div>
