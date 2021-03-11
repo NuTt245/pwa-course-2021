@@ -1,5 +1,9 @@
 import './App.css';
 import {useState} from 'react';
+import { Link } from 'react-router-dom';
+
+
+
 
 
 function App() {
@@ -31,9 +35,13 @@ function App() {
 
 
       <div className="App-chatroom2">
-
-
-         Chatroom
+        <div>
+        <Link to="/friend-list">
+            <button>
+                Go to 
+           </button>
+           </Link>
+        </div>
 
         </div>
       </div>
@@ -54,7 +62,10 @@ function App() {
         <div className="App-textbox-send" onClick={onSend}>Send!</div>
       </div>
     </div>
+    
+
   );
+  
 }
 
 export default App;

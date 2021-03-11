@@ -1,15 +1,22 @@
 import{ BrowserRouter, Switch, Route } from 'react-router-dom';
 import App from './App';
+import FriendList from './FriendList';
 
-function Router(){
+
+
+
+function Router() {
 return(
-    <BrowserRouter>
-    <switch>
+<BrowserRouter>
+    <Switch>
+        <Route path="/friend-list">
+        <FriendList />
+        </Route>
         <Route parth="/">
         <App />
         </Route>
-        </switch>
-    </BrowserRouter>
+    </Switch>
+</BrowserRouter>
 )
 };
 
